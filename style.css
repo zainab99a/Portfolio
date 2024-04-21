@@ -40,6 +40,7 @@ header{
 
 }
 .logo .logotitle{
+    margin-left: 20px;
     font-size: 2rem;
     color: var(--main-color);
    
@@ -67,6 +68,7 @@ header{
     display: none;
   }
   .topnav a.icon i.fa.fa-bars {
+    margin-right: 10px;
     font-size: 30px; 
     color: var(--main-color);
    
