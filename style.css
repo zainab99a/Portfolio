@@ -590,16 +590,17 @@ footer{
     width: 95%;
     height: 500px;
     background-color: var(--main-color);
-    margin-bottom:20px ;
+    margin-bottom:5px ;
     margin-top: 0;
-    
+
 
     
   }
   .card-container p{
-   
     color: var(--secondary-color);
   } 
+
+  
 }
 
 @media only screen and (min-width: 1100px){
@@ -752,6 +753,7 @@ font-size: 1.8rem;}
        display: flex;
        justify-content: center;
        align-items: center;
+       line-height: 30px;
       }
    
       .one,.two,.three,.four,.five,.six,.seven,.eight{
