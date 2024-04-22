@@ -454,6 +454,8 @@ left: -20px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
     
 }
 .contact-container{
@@ -466,7 +468,7 @@ left: -20px;
    justify-content: center;
    align-items: center;
    position: relative;
-   top:530px;
+   top:600px;
    left: 300px;
 }
 input{
@@ -600,9 +602,11 @@ footer{
   .card-container p{
     color: var(--secondary-color);
   } 
+ 
 
-  
+
 }
+
 
 @media only screen and (min-width: 1100px){
       .topnav{
@@ -826,7 +830,7 @@ font-size: 1.8rem;}
         width: 100%;
         background: var(--main-color);
         transform: scale(1, 1);
-        top: -280px;
+        top:-50%;
       }
       
       .wave:before {
