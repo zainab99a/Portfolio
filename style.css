@@ -130,7 +130,7 @@ left: -20px;
     text-align: center;
     margin-bottom: 20px;
     position: relative;
-    font-size: 1.3em;
+    font-size: 1.2em;
     overflow: hidden;
     background: linear-gradient(90deg, var(--secondary-color), var(--main-color), var(--secondary-color));
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ left: -20px;
 .work-header,
 .skils-section  h1{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     opacity: 0.2;
     margin-top: 10px;
 }
@@ -471,13 +471,14 @@ left: -20px;
 }
 input{
     height: 40px;
-    width: 340px;
+    width: 80%;
     border-style: none;
     border-radius:10px;
     padding: 20px;
     
 }
 textarea{
+    width: 80%;
     border-style: none;
     border-radius:15px;
     padding: 30px;
@@ -486,7 +487,7 @@ textarea{
 
 .sendbtn{
 height: 1.8rem;
-width: 340px;
+width: 80%;
 border-radius: 8px;
 padding: 4px;
 font-size: 1rem;
@@ -567,7 +568,7 @@ footer{
       }
 }
 
-@media only screen and (min-width: 360px)and(max-width: 1099px) {
+@media only screen and (min-width: 200px)and(max-width: 1099px) {
 
     .card{
     display: flex;
