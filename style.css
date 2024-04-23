@@ -191,7 +191,7 @@ left: -20px;
 /* start of about section */
 
 .about-continer{
-    height: 90vh;
+    height:800px;
     background-color: var(--body-color);
     display: grid;
     place-items: center;
@@ -199,12 +199,12 @@ left: -20px;
    
 }
 .about-section h1,
-.work-header,
+ .work-section .work-header,
 .skils-section  h1{
     text-align: center;
     font-size: 2.5rem;
     opacity: 0.2;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 .work-header{
     text-align: center;
@@ -576,6 +576,13 @@ footer{
         line-height: 30px;
       }
 }
+@media only screen and (max-height: 800px){
+
+    .about-continer{
+        height:750px;}
+
+        
+}
 
 @media only screen and (min-width: 200px)and(max-width: 1099px) {
 
@@ -584,12 +591,9 @@ footer{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    height: 50vh;
-    
-
-   
-   
+    height: 50vh;  
 }
+
 
 .card .about-image{
     margin-top: 20px ;
@@ -709,14 +713,15 @@ font-size: 1.8rem;}
 .left-column .social-container{
     margin-right: 130px;
 }
-    .about-continer{
-        margin-top: 5%;
-    }
+
+.about-section h1{
+    margin-bottom: 30px;
+}
     .card-container {
         position: absolute;
         transition: transform 2s;
         transform-style: preserve-3d;
-        top:90%;
+        top: 750px;
         left:48%;
         height: 50%;
         width: 45%;
@@ -728,7 +733,7 @@ font-size: 1.8rem;}
       }
       .card .about-image{
         position: absolute;
-        top:83%;
+        top:690px;
         left:5.5%;
         margin-top: 20px ;
         margin-bottom: 0;
@@ -774,9 +779,7 @@ font-size: 1.8rem;}
        line-height: 30px;
       }
    
-      .skils-section h1 {
-        margin-top: 5%;
-      }
+
       .one,.two,.three,.four,.five,.six,.seven,.eight{
         width:calc(180vh / 8);
         height:calc(180vh / 8);
